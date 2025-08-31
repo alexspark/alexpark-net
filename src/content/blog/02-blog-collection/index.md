@@ -2,6 +2,7 @@
 title: "Blog Collection"
 description: "How to add posts to your blog."
 date: "Mar 21 2024"
+draft: true
 ---
 
 The `blog` collections is found in `src/content/blog`.
@@ -35,12 +36,12 @@ draft: false
 
 Metadata fields
 
-| Field       | Req | Type    | Remarks                                          |
-| :---------- | :-- | :------ | :----------------------------------------------- |
-| title       | Yes | string  | Title of the content. Used in SEO and RSS.       |
-| description | Yes | string  | Description of the content. Used in SEO and RSS. |
-| date        | Yes | string  | Must be a valid date string (able to be parsed). |
-| draft       | No* | boolean | draft: true, content will not be published.      |
+| Field       | Req  | Type    | Remarks                                          |
+| :---------- | :--- | :------ | :----------------------------------------------- |
+| title       | Yes  | string  | Title of the content. Used in SEO and RSS.       |
+| description | Yes  | string  | Description of the content. Used in SEO and RSS. |
+| date        | Yes  | string  | Must be a valid date string (able to be parsed). |
+| draft       | No*  | boolean | draft: true, content will not be published.      |
 
 All that's left to do is write your content under the metadata.
 

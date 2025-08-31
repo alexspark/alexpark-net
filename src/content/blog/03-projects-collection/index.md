@@ -2,6 +2,7 @@
 title: "Projects Collection"
 description: "How to add projects to your portfolio."
 date: "Mar 20 2024"
+draft: true
 ---
 
 The `projects` collections is found in `src/content/projects`.
@@ -35,14 +36,14 @@ draft: false
 
 Metadata fields
 
-| Field       | Req | Type    | Remarks                                          |
-| :---------- | :-- | :------ | :----------------------------------------------- |
-| title       | Yes | string  | Title of the content. Used in SEO and RSS.       |
-| description | Yes | string  | Description of the content. Used in SEO and RSS. |
-| date        | Yes | string  | Must be a valid date string (able to be parsed). |
-| draft       | No  | boolean | draft: true, content will not be published.      |
-| demoURL     | No  | string  | Link to live project demo, if applicable.        |
-| repoURL     | No  | string  | Link to project repo, if applicable.             |
+| Field       | Req  | Type    | Remarks                                          |
+| :---------- | :--- | :------ | :----------------------------------------------- |
+| title       | Yes  | string  | Title of the content. Used in SEO and RSS.       |
+| description | Yes  | string  | Description of the content. Used in SEO and RSS. |
+| date        | Yes  | string  | Must be a valid date string (able to be parsed). |
+| draft       | No   | boolean | draft: true, content will not be published.      |
+| demoURL     | No   | string  | Link to live project demo, if applicable.        |
+| repoURL     | No   | string  | Link to project repo, if applicable.             |
 
 All that's left to do is write your content under the metadata.
 

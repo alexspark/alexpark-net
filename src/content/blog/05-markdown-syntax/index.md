@@ -2,6 +2,7 @@
 title: "Markdown syntax guide"
 description: "Get started writing content in markdown."
 date: "Mar 17 2024"
+draft: true
 ---
 
 ---
@@ -319,18 +320,18 @@ Combine a list with 2 square brackets. `spc` incomplete `x` complete.
 Use `-` for header, `|` for columns, `:` for alignment.
 
 ```md
-| Item    | Ct  |
-| :------ | --: |
-| Bread   | 1   |
-| Milk    | 1   |
-| Haribo  | 10  |
+| Item   |   Ct |
+| :----- | ---: |
+| Bread  |    1 |
+| Milk   |    1 |
+| Haribo |   10 |
 ```
 
-| Item    | Buy |
-| :------ | --: |
-| Bread   | 1   |
-| Milk    | 1   |
-| Haribo  | 10  |
+| Item   |  Buy |
+| :----- | ---: |
+| Bread  |    1 |
+| Milk   |    1 |
+| Haribo |   10 |
 
 ---
 
