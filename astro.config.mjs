@@ -6,7 +6,7 @@ import tailwind from "@astrojs/tailwind";
 import cloudflare from "@astrojs/cloudflare";
 
 export default defineConfig({
-  site: "https://astro-nano-demo.vercel.app",
+  site: "https://e0fdd15c.alexpark-net.pages.dev",
   integrations: [mdx(), sitemap(), tailwind()],
   adapter: cloudflare(),
 });
