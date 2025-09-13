@@ -1,0 +1,26 @@
+{
+    // Cloudflare Wrangler configuration (JSONC). Docs:
+    // https://developers.cloudflare.com/pages/framework-guides/deploy-an-astro-site/
+    // Using JSONC since you requested it; comments will be stripped.
+    "name": "alexpark-net",
+    "compatibility_date": "2025-09-13",
+    // Astro + @astrojs/cloudflare adapter emits a _worker.js in dist for Pages.
+    "pages_build_output_dir": "dist",
+    // Enable only if you need Node.js built-ins at the edge.
+    // "compatibility_flags": ["nodejs_compat"],
+    // KV namespaces: fill in your real IDs after creating them.
+    "kv_namespaces": [
+        {
+            "binding": "SESSIONS",
+            "id": "31d5cc5a07f2436e9bff3fb7616d77f5",
+            "preview_id": "3456ca57890643ef8b6c93a732cb2d3f"
+        }
+    ]
+    // Future resources examples (uncomment + fill when needed):
+    // "d1_databases": [
+    //   { "binding": "DB", "database_name": "alexpark_db", "database_id": "REPLACE_WITH_DB_ID" }
+    // ],
+    // "r2_buckets": [
+    //   { "binding": "ASSETS", "bucket_name": "alexpark-assets" }
+    // ]
+}
