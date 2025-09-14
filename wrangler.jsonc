@@ -5,7 +5,7 @@
     // Astro + @astrojs/cloudflare adapter emits a _worker.js in dist for Pages.
     "assets": {
         "directory": "./dist"
-    }
+    },
     // Enable only if you need Node.js built-ins at the edge.
     // "compatibility_flags": ["nodejs_compat"],
     // KV namespaces: fill in your real IDs after creating them.
