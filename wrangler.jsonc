@@ -8,7 +8,9 @@
     },
     "main": "./dist/_worker.js/index.js",
     // Enable only if you need Node.js built-ins at the edge.
-    // "compatibility_flags": ["nodejs_compat"],
+    "compatibility_flags": [
+        "nodejs_compat"
+    ],
     // KV namespaces: fill in your real IDs after creating them.
     "kv_namespaces": [
         {
