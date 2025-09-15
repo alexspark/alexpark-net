@@ -9,5 +9,4 @@ export default defineConfig({
   site: "https://e0fdd15c.alexpark-net.pages.dev",
   integrations: [mdx(), sitemap(), tailwind()],
   adapter: cloudflare(),
-  output: "server",
 });

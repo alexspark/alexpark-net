@@ -1,7 +1,10 @@
 import type { APIRoute, APIContext } from "astro";
 
+export const prerender = false;
+
 export const GET: APIRoute = ({ request }: APIContext) => {
-    const searchParams = new URLSearchParams(request.url);
+    const url = new URL(request.url);
+    const searchParams = new URLSearchParams(url.searchParams);
     console.log(Object.fromEntries(searchParams.entries()));
     const a = Number(searchParams.get("a"));
     const b = Number(searchParams.get("b"));
